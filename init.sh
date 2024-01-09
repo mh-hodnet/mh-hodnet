@@ -15,9 +15,6 @@ groupadd admin 2>> ./errors.txt
 
 echo -e "\n### a group named 'admin' was created ###"
 
-
-echo -e "hodnet"
-
 useradd hodnet -m --shell /bin/bash -G admin 2>> ./errors.txt
 
 echo -e "\n### a user named 'hodnet' was created ###"
